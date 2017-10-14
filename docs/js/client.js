@@ -10048,7 +10048,12 @@ var _fifth_postulate$trade_card$TradeCard_Client$init = function (flags) {
 	var command = A2(_elm_lang$core$Task$attempt, _fifth_postulate$trade_card$TradeCard_Client$History, task);
 	return {
 		ctor: '_Tuple2',
-		_0: A4(_fifth_postulate$trade_card$TradeCard_Client$emptyModel, localDb, flags.lowestCard, flags.highestCard, flags.user),
+		_0: A4(
+			_fifth_postulate$trade_card$TradeCard_Client$emptyModel,
+			localDb,
+			flags.lowestCard,
+			A2(_elm_lang$core$Debug$log, 'h:', flags.highestCard),
+			flags.user),
 		_1: command
 	};
 };
