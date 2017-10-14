@@ -3,7 +3,7 @@
     var app = Elm.TradeCard.Client.embed(container, {
         user: 'dvberkel',
         lowestCard: 1,
-        highestCard: 15
+        highestCard: 160
     });
 
     window.destroyDb = function(){
