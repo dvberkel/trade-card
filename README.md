@@ -1,4 +1,4 @@
-# Trade Card
+# Wonderlijke Wereld
 Application to keep track of the cards in your collection.
 
 ## Client
